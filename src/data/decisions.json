@@ -1,0 +1,165 @@
+{
+  "root": {
+    "question": "Hey! What's going on? 👋",
+    "options": [
+      { "label": "😴 I'm bored / stuck on the couch", "next": "bored_energy" },
+      { "label": "🍕 I'm hungry but can't decide what to eat", "next": "hungry_effort" },
+      { "label": "🎬 I want to watch something", "next": "watch_mood" },
+      { "label": "😩 I just feel blah and don't know what I need", "next": "blah_type" }
+    ]
+  },
+
+  "bored_energy": {
+    "question": "How much energy do you have right now?",
+    "options": [
+      { "label": "🪫 Zero. I am one with the couch.", "next": "bored_zero_energy" },
+      { "label": "⚡ A little bit", "next": "bored_some_energy" },
+      { "label": "🏃 Actually pretty decent", "next": "bored_good_energy" }
+    ]
+  },
+
+  "bored_zero_energy": {
+    "question": "Want to do something mindless or something cozy?",
+    "options": [
+      { "label": "🧠 Mindless — just entertain me", "next": "bored_zero_mindless" },
+      { "label": "🧸 Cozy — I want to feel warm and comfy", "next": "bored_zero_cozy" }
+    ]
+  },
+
+  "bored_zero_mindless": {
+    "recommendation": "Put on a comfort show you've seen a hundred times and zone out. No decisions, no thinking — just vibes. 📺"
+  },
+
+  "bored_zero_cozy": {
+    "recommendation": "Make a hot drink ☕, wrap yourself in a blanket, and put on lo-fi music or rain sounds. You don't need to DO anything. Just exist and recharge."
+  },
+
+  "bored_some_energy": {
+    "question": "Would you rather be creative or entertained?",
+    "options": [
+      { "label": "🎨 Creative — make something", "next": "bored_creative" },
+      { "label": "🎮 Entertained — consume something fun", "next": "bored_entertained" }
+    ]
+  },
+
+  "bored_creative": {
+    "recommendation": "Do a quick creative activity: doodle something random, rearrange a small corner of your space, write down 5 dream travel destinations with descriptions, or look up a fun recipe to try later. 🎨"
+  },
+
+  "bored_entertained": {
+    "recommendation": "Pick a YouTube rabbit hole: try 'oddly satisfying', 'cooking fails', or 'tiny room transformations'. Or open TikTok and just let the algorithm go. 📱"
+  },
+
+  "bored_good_energy": {
+    "question": "Want to stay inside or get out?",
+    "options": [
+      { "label": "🏠 Stay inside", "next": "bored_inside" },
+      { "label": "🌤️ Get outside", "next": "bored_outside" }
+    ]
+  },
+
+  "bored_inside": {
+    "recommendation": "Clean or reorganize one small area — a drawer, your closet, your desk. Put on a podcast while you do it. You'll feel way more accomplished than scrolling would leave you. ✨"
+  },
+
+  "bored_outside": {
+    "recommendation": "Go for a walk without a destination. Just pick a direction and walk for 20 minutes. Bring headphones if you want. You'll feel better when you get back. 🚶‍♀️"
+  },
+
+  "hungry_effort": {
+    "question": "How much effort are you willing to put into food right now?",
+    "options": [
+      { "label": "🛋️ Minimal — barely want to stand up", "next": "hungry_lazy" },
+      { "label": "🍳 Medium — I'll do some basic cooking", "next": "hungry_medium" },
+      { "label": "👨‍🍳 I'm actually down to cook something real", "next": "hungry_cook" }
+    ]
+  },
+
+  "hungry_lazy": {
+    "question": "Want delivery or something from what you already have?",
+    "options": [
+      { "label": "📦 Delivery / takeout", "next": "hungry_delivery" },
+      { "label": "🏠 Use what's at home", "next": "hungry_home_lazy" }
+    ]
+  },
+
+  "hungry_delivery": {
+    "recommendation": "Order your go-to comfort food — don't overthink it. You already know what sounds good. Just get that. 🛵"
+  },
+
+  "hungry_home_lazy": {
+    "recommendation": "Make a 'chaos snack plate': grab random things from the fridge and pantry — cheese, crackers, fruit, leftovers, whatever — and arrange them on a plate. It feels fancy and takes zero effort. 🧀"
+  },
+
+  "hungry_medium": {
+    "question": "What are you craving?",
+    "options": [
+      { "label": "🌮 Something savory / salty", "next": "hungry_savory" },
+      { "label": "🍝 Something warm and filling", "next": "hungry_warm" },
+      { "label": "🥗 Something light and fresh", "next": "hungry_light" }
+    ]
+  },
+
+  "hungry_savory": {
+    "recommendation": "Make quesadillas or a quick fried rice with whatever's in the fridge. Both are fast, savory, and satisfying with minimal cleanup. 🌮"
+  },
+
+  "hungry_warm": {
+    "recommendation": "Cook some pasta with butter and parmesan, or heat up soup with toast. Simple, warm, cozy, and done in 15 minutes. 🍝"
+  },
+
+  "hungry_light": {
+    "recommendation": "Throw together a big salad or grain bowl — whatever greens or grains you have, top with a protein, and drizzle with whatever dressing sounds good. 🥗"
+  },
+
+  "hungry_cook": {
+    "recommendation": "Pick one thing you've been wanting to try making. Look it up on YouTube, get the ingredients ready, and actually do it. Make it a little event — put music on! 🎶👨‍🍳"
+  },
+
+  "watch_mood": {
+    "question": "What kind of mood are you in for watching?",
+    "options": [
+      { "label": "😂 I want to laugh", "next": "watch_comedy" },
+      { "label": "😢 I want to feel something / maybe cry", "next": "watch_emotional" },
+      { "label": "😮 I want to be on the edge of my seat", "next": "watch_thriller" },
+      { "label": "🧠 I want to learn something interesting", "next": "watch_documentary" }
+    ]
+  },
+
+  "watch_comedy": {
+    "recommendation": "Put on a comedy special or a sitcom episode from a show you love. Some classics: Schitt's Creek, The Office, Parks & Rec, Abbott Elementary. Or search 'best stand-up specials' and pick one. 😂"
+  },
+
+  "watch_emotional": {
+    "recommendation": "Put on a movie you already know makes you feel things — lean into it. If you want something new, search 'emotional movies that will make you cry' and pick one that sounds good. Have tissues ready. 🤧"
+  },
+
+  "watch_thriller": {
+    "recommendation": "Find a thriller or mystery series to start. Some good ones: Severance, Squid Game, The Bear, or any true crime documentary. Just pick the first one that catches your eye. 😬"
+  },
+
+  "watch_documentary": {
+    "recommendation": "Search 'mind-blowing documentaries' and pick a topic you know nothing about — food, nature, space, cults, fashion. The more random, the better rabbit hole. 🌍"
+  },
+
+  "blah_type": {
+    "question": "When you say blah — what does it feel like most?",
+    "options": [
+      { "label": "😶 Restless — I can't settle", "next": "blah_restless" },
+      { "label": "😔 Low — a little sad or tired", "next": "blah_low" },
+      { "label": "🤯 Overstimulated — too much going on in my head", "next": "blah_overstimulated" }
+    ]
+  },
+
+  "blah_restless": {
+    "recommendation": "You need to move your body a little — even just stretching on the floor, a short walk around the block, or dancing to 3 songs in your room. Your body needs to release something. 💃"
+  },
+
+  "blah_low": {
+    "recommendation": "Be gentle with yourself. Get a snack, a cozy drink, and do something quietly comforting — a comfort show, a warm bath, journaling a few lines, or texting someone you love just to say hi. 💛"
+  },
+
+  "blah_overstimulated": {
+    "recommendation": "Step away from screens for 10-15 minutes. Lie down, close your eyes, or just sit somewhere quiet. Put on soft ambient music if silence is too loud. You need to let your brain decompress. 🧘"
+  }
+}
