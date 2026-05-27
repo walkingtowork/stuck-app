@@ -1,85 +1,186 @@
 {
   "root": {
-    "question": "Hey! What's going on? 👋",
+    "question": "Creple, I stuck.",
     "options": [
-      { "label": "😴 I'm bored / stuck on the couch", "next": "bored_energy" },
-      { "label": "🍕 I'm hungry but can't decide what to eat", "next": "hungry_effort" },
-      { "label": "🎬 I want to watch something", "next": "watch_mood" },
-      { "label": "😩 I just feel blah and don't know what I need", "next": "blah_type" }
+      { "label": "😴 Couch is sticky", "next": "couch_energy" },
+      { "label": "🥟 Hungry", "next": "hungry_time" },
+      { "label": "🎬 Want watch something", "next": "watch_mood" },
+      { "label": "🫐 Gloomy", "next": "blah_type" },
+      { "label": "📱 Got stuck on phone", "next": "not_sure" }
     ]
   },
 
-  "bored_energy": {
+  "couch_energy": {
     "question": "How much energy do you have right now?",
     "options": [
-      { "label": "🪫 Zero. I am one with the couch.", "next": "bored_zero_energy" },
-      { "label": "⚡ A little bit", "next": "bored_some_energy" },
-      { "label": "🏃 Actually pretty decent", "next": "bored_good_energy" }
+      { "label": "🪫 Zero. I am one with the couch.", "next": "couch_zero_energy" },
+      { "label": "⚡ A little bit", "next": "couch_some_energy" },
+      { "label": "🏃 Actually pretty decent", "next": "couch_good_energy" }
     ]
   },
 
-  "bored_zero_energy": {
+  "couch_zero_energy": {
     "question": "Want to do something mindless or something cozy?",
     "options": [
-      { "label": "🧠 Mindless — just entertain me", "next": "bored_zero_mindless" },
-      { "label": "🧸 Cozy — I want to feel warm and comfy", "next": "bored_zero_cozy" }
+      { "label": "🧠 Mindless — just entertain me", "next": "couch_zero_mindless" },
+      { "label": "🧸 Cozy — I want to feel warm and comfy", "next": "couch_zero_cozy" }
     ]
   },
 
-  "bored_zero_mindless": {
+  "couch_zero_mindless": {
     "recommendation": "Put on a comfort show you've seen a hundred times and zone out. No decisions, no thinking — just vibes. 📺"
   },
 
-  "bored_zero_cozy": {
+  "couch_zero_cozy": {
     "recommendation": "Make a hot drink ☕, wrap yourself in a blanket, and put on lo-fi music or rain sounds. You don't need to DO anything. Just exist and recharge."
   },
 
-  "bored_some_energy": {
+  "couch_some_energy": {
     "question": "Would you rather be creative or entertained?",
     "options": [
-      { "label": "🎨 Creative — make something", "next": "bored_creative" },
-      { "label": "🎮 Entertained — consume something fun", "next": "bored_entertained" }
+      { "label": "🎨 Creative — make something", "next": "couch_creative" },
+      { "label": "🎮 Entertained — consume something fun", "next": "couch_entertained" }
     ]
   },
 
-  "bored_creative": {
+  "couch_creative": {
     "recommendation": "Do a quick creative activity: doodle something random, rearrange a small corner of your space, write down 5 dream travel destinations with descriptions, or look up a fun recipe to try later. 🎨"
   },
 
-  "bored_entertained": {
+  "couch_entertained": {
     "recommendation": "Pick a YouTube rabbit hole: try 'oddly satisfying', 'cooking fails', or 'tiny room transformations'. Or open TikTok and just let the algorithm go. 📱"
   },
 
-  "bored_good_energy": {
+  "couch_good_energy": {
     "question": "Want to stay inside or get out?",
     "options": [
-      { "label": "🏠 Stay inside", "next": "bored_inside" },
-      { "label": "🌤️ Get outside", "next": "bored_outside" }
+      { "label": "🛋️ Stay inside", "next": "couch_inside" },
+      { "label": "🌤️ Get outside", "next": "couch_outside" }
     ]
   },
 
-  "bored_inside": {
+  "couch_inside": {
     "recommendation": "Clean or reorganize one small area — a drawer, your closet, your desk. Put on a podcast while you do it. You'll feel way more accomplished than scrolling would leave you. ✨"
   },
 
-  "bored_outside": {
+  "couch_outside": {
     "recommendation": "Go for a walk without a destination. Just pick a direction and walk for 20 minutes. Bring headphones if you want. You'll feel better when you get back. 🚶‍♀️"
   },
 
-  "hungry_effort": {
-    "question": "How much effort are you willing to put into food right now?",
+  "hungry_time": {
+    "question": "What time is it?",
     "options": [
-      { "label": "🛋️ Minimal — barely want to stand up", "next": "hungry_lazy" },
-      { "label": "🍳 Medium — I'll do some basic cooking", "next": "hungry_medium" },
-      { "label": "👨‍🍳 I'm actually down to cook something real", "next": "hungry_cook" }
+      { "label": "🌅 Morning", "next": "hungry_morning" },
+      { "label": "🌞 Afternoon", "next": "hungry_afternoon" },
+      { "label": "🌙 Evening", "next": "hungry_evening" },
+      { "label": "💤 Late Night", "next": "hungry_late_night" }
     ]
   },
 
-  "hungry_lazy": {
+  "hungry_morning": {
+    "question": "What do you want to eat?",
+    "options": [
+      { "label": "🍳 Breakfast", "next": "hungry_breakfast" },
+      { "label": "🍎 Snack", "next": "hungry_snack" }
+    ]
+  },
+
+  "hungry_breakfast": {
+    "recommendation": "🥚 Make eggy eggs or have a bowl of granola. Or go out for scallion pancakes or eggs benny if you're adventurous."
+  },
+
+  "hungry_afternoon": {
+    "question": "What do you want to eat?",
+    "options": [
+      { "label": "🥙 Lunch", "next": "hungry_effort" },
+      { "label": "🍎 Snack", "next": "hungry_snack" }
+    ]
+  },
+
+  "hungry_evening": {
+    "question": "Did you eat dinner?",
+    "options": [
+      { "label": "🍱 No dinner yet", "next": "hungry_effort" },
+      { "label": "🍽️ Ate dinner", "next": "hungry_snack" }
+    ]
+  },
+
+  "hungry_late_night": {
+    "recommendation": "💧 Drink some water or eat a small piece of fruit."
+  },
+
+  "hungry_snack": {
+    "recommendation": "🍊 Have a small snack like a cracker with cheese or a piece of fruit."
+  },
+
+  "hungry_effort": {
+    "question": "Do you want to go out, or stay home?",
+    "options": [
+      { "label": "🏠 Stay home", "next": "hungry_home" },
+      { "label": "🍔 Go out", "next": "hungry_out" }
+    ]
+  },
+
+  "hungry_out": {
+    "question": "What do you want to eat?",
+    "options": [
+      { "label": "🍜 Asian", "next": "hungry_asian" },
+      { "label": "🍔 Not Asian", "next": "hungry_not_asian" }
+    ]
+  },
+
+  "hungry_asian": {
+    "question": "What do you want to eat?",
+    "options": [
+      { "label": "🇯🇵 Japanese", "next": "hungry_japanese" },
+      { "label": "🇹🇼🇨🇳 Chinese", "next": "hungry_chinese" },
+      { "label": "🇰🇷 Korean", "next": "hungry_korean" },
+      { "label": "🇹🇭 Thai", "next": "hungry_thai" },
+      { "label": "🇻🇳 Vietnamese", "next": "hungry_vietnamese" }
+    ]
+  },
+
+  "hungry_japanese": {
+    "recommendation": "Go to Rahan or get udon."
+  },
+
+  "hungry_chinese": {
+    "recommendation": "Go to the Pork Guy (in Taiwan)."
+  },
+
+  "hungry_korean": {
+    "recommendation": "Go to Seoul Ichiba."
+  },
+
+  "hungry_thai": {
+    "recommendation": "Go to the new place in Kinshicho."
+  },
+  "hungry_vietnamese": {
+    "recommendation": "Go to the Vietnamese street (in Taiwan)."
+  },
+
+  "hungry_not_asian": {
+    "question": "What do you want to eat?",
+    "options": [
+      { "label": "🍔 Burger", "next": "hungry_burger" },
+      { "label": "🍝 Pasta", "next": "hungry_pasta" }
+    ]
+  },
+
+  "hungry_burger": {
+    "recommendation": "Go to Chiltoco."
+  },
+
+  "hungry_pasta": {
+    "recommendation": "Go to Trattoria Nome."
+  },
+
+  "hungry_home": {
     "question": "Want delivery or something from what you already have?",
     "options": [
-      { "label": "📦 Delivery / takeout", "next": "hungry_delivery" },
-      { "label": "🏠 Use what's at home", "next": "hungry_home_lazy" }
+      { "label": "🥡 Delivery / takeout", "next": "hungry_delivery" },
+      { "label": "🍲 Use what's at home", "next": "hungry_home_lazy" },
+      { "label": "👨‍🍳 I'm actually down to cook something real", "next": "hungry_home_cook" }
     ]
   },
 
@@ -112,7 +213,7 @@
     "recommendation": "Throw together a big salad or grain bowl — whatever greens or grains you have, top with a protein, and drizzle with whatever dressing sounds good. 🥗"
   },
 
-  "hungry_cook": {
+  "hungry_home_cook": {
     "recommendation": "Pick one thing you've been wanting to try making. Look it up on YouTube, get the ingredients ready, and actually do it. Make it a little event — put music on! 🎶👨‍🍳"
   },
 
@@ -161,5 +262,9 @@
 
   "blah_overstimulated": {
     "recommendation": "Step away from screens for 10-15 minutes. Lie down, close your eyes, or just sit somewhere quiet. Put on soft ambient music if silence is too loud. You need to let your brain decompress. 🧘"
+  },
+
+  "not_sure": {
+    "recommendation": "🚶🏻‍♀️ Why don't you go for a walk?"
   }
 }
