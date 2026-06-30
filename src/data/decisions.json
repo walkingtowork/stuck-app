@@ -178,9 +178,9 @@
   "hungry_home": {
     "question": "Want delivery or something from what you already have?",
     "options": [
-      { "label": "🥡 Delivery / takeout", "next": "hungry_delivery" },
+      { "label": "🥡 No energy to go out", "next": "hungry_out" },
       { "label": "🍲 Use what's at home", "next": "hungry_home_lazy" },
-      { "label": "👨‍🍳 I'm actually down to cook something real", "next": "hungry_home_cook" }
+      { "label": "👨‍🍳 Want to cook!", "next": "hungry_home_cook" }
     ]
   },
 
