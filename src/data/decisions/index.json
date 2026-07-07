@@ -1,0 +1,12 @@
+{
+  "root": {
+    "question": "Creple, I stuck.",
+    "options": [
+      { "label": "😴 Couch is sticky", "next": "couch_energy" },
+      { "label": "🥟 Hungry", "next": "hungry_time" },
+      { "label": "🎬 Want watch something", "next": "watch_mood" },
+      { "label": "🫐 Gloomy", "next": "blah_type" },
+      { "label": "📱 Got stuck on phone", "next": "not_sure" }
+    ]
+  }
+}

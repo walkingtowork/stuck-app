@@ -1,0 +1,27 @@
+{
+  "watch_mood": {
+    "question": "What kind of mood are you in for watching?",
+    "options": [
+      { "label": "😂 I want to laugh", "next": "watch_comedy" },
+      { "label": "😢 I want to feel something / maybe cry", "next": "watch_emotional" },
+      { "label": "😮 I want to be on the edge of my seat", "next": "watch_thriller" },
+      { "label": "🧠 I want to learn something interesting", "next": "watch_documentary" }
+    ]
+  },
+
+  "watch_comedy": {
+    "recommendation": "Put on a comedy special or a sitcom episode from a show you love. Some classics: Schitt's Creek, The Office, Parks & Rec, Abbott Elementary. Or search 'best stand-up specials' and pick one. 😂"
+  },
+
+  "watch_emotional": {
+    "recommendation": "Put on a movie you already know makes you feel things — lean into it. If you want something new, search 'emotional movies that will make you cry' and pick one that sounds good. Have tissues ready. 🤧"
+  },
+
+  "watch_thriller": {
+    "recommendation": "Find a thriller or mystery series to start. Some good ones: Severance, Squid Game, The Bear, or any true crime documentary. Just pick the first one that catches your eye. 😬"
+  },
+
+  "watch_documentary": {
+    "recommendation": "Search 'mind-blowing documentaries' and pick a topic you know nothing about — food, nature, space, cults, fashion. The more random, the better rabbit hole. 🌍"
+  }
+}

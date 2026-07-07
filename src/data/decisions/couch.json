@@ -1,0 +1,58 @@
+{
+  "couch_energy": {
+    "question": "How much energy do you have right now?",
+    "options": [
+      { "label": "🪫 Zero. I am one with the couch.", "next": "couch_zero_energy" },
+      { "label": "⚡ A little bit", "next": "couch_some_energy" },
+      { "label": "🏃 Actually pretty decent", "next": "couch_good_energy" }
+    ]
+  },
+
+  "couch_zero_energy": {
+    "question": "Want to do something mindless or something cozy?",
+    "options": [
+      { "label": "🧠 Mindless — just entertain me", "next": "couch_zero_mindless" },
+      { "label": "🧸 Cozy — I want to feel warm and comfy", "next": "couch_zero_cozy" }
+    ]
+  },
+
+  "couch_zero_mindless": {
+    "recommendation": "Put on a comfort show you've seen a hundred times and zone out. No decisions, no thinking — just vibes. 📺"
+  },
+
+  "couch_zero_cozy": {
+    "recommendation": "Make a hot drink ☕, wrap yourself in a blanket, and put on lo-fi music or rain sounds. You don't need to DO anything. Just exist and recharge."
+  },
+
+  "couch_some_energy": {
+    "question": "Would you rather be creative or entertained?",
+    "options": [
+      { "label": "🎨 Creative — make something", "next": "couch_creative" },
+      { "label": "🎮 Entertained — consume something fun", "next": "couch_entertained" }
+    ]
+  },
+
+  "couch_creative": {
+    "recommendation": "Do a quick creative activity: doodle something random, rearrange a small corner of your space, write down 5 dream travel destinations with descriptions, or look up a fun recipe to try later. 🎨"
+  },
+
+  "couch_entertained": {
+    "recommendation": "Pick a YouTube rabbit hole: try 'oddly satisfying', 'cooking fails', or 'tiny room transformations'. Or open TikTok and just let the algorithm go. 📱"
+  },
+
+  "couch_good_energy": {
+    "question": "Want to stay inside or get out?",
+    "options": [
+      { "label": "🛋️ Stay inside", "next": "couch_inside" },
+      { "label": "🌤️ Get outside", "next": "couch_outside" }
+    ]
+  },
+
+  "couch_inside": {
+    "recommendation": "Clean or reorganize one small area — a drawer, your closet, your desk. Put on a podcast while you do it. You'll feel way more accomplished than scrolling would leave you. ✨"
+  },
+
+  "couch_outside": {
+    "recommendation": "Go for a walk without a destination. Just pick a direction and walk for 20 minutes. Bring headphones if you want. You'll feel better when you get back. 🚶‍♀️"
+  }
+}

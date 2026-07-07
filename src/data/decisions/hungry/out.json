@@ -1,0 +1,56 @@
+{
+  "hungry_out": {
+    "question": "What do you want to eat?",
+    "options": [
+      { "label": "🍜 Asian", "next": "hungry_asian" },
+      { "label": "🍔 Not Asian", "next": "hungry_not_asian" }
+    ]
+  },
+
+  "hungry_asian": {
+    "question": "What do you want to eat?",
+    "options": [
+      { "label": "🇯🇵 Japanese", "next": "hungry_japanese" },
+      { "label": "🇹🇼🇨🇳 Chinese", "next": "hungry_chinese" },
+      { "label": "🇰🇷 Korean", "next": "hungry_korean" },
+      { "label": "🇹🇭 Thai", "next": "hungry_thai" },
+      { "label": "🇻🇳 Vietnamese", "next": "hungry_vietnamese" }
+    ]
+  },
+
+  "hungry_japanese": {
+    "recommendation": "Go to Rahan or get udon."
+  },
+
+  "hungry_chinese": {
+    "recommendation": "Go to the Pork Guy (in Taiwan)."
+  },
+
+  "hungry_korean": {
+    "recommendation": "Go to Seoul Ichiba."
+  },
+
+  "hungry_thai": {
+    "recommendation": "Go to the new place in Kinshicho."
+  },
+
+  "hungry_vietnamese": {
+    "recommendation": "Go to the Vietnamese street (in Taiwan)."
+  },
+
+  "hungry_not_asian": {
+    "question": "What do you want to eat?",
+    "options": [
+      { "label": "🍔 Burger", "next": "hungry_burger" },
+      { "label": "🍝 Pasta", "next": "hungry_pasta" }
+    ]
+  },
+
+  "hungry_burger": {
+    "recommendation": "Go to Chiltoco."
+  },
+
+  "hungry_pasta": {
+    "recommendation": "Go to Trattoria Nome."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "hungry_time": {
+    "question": "What time is it?",
+    "options": [
+      { "label": "🌅 Morning", "next": "hungry_morning" },
+      { "label": "🌞 Afternoon", "next": "hungry_afternoon" },
+      { "label": "🌙 Evening", "next": "hungry_evening" },
+      { "label": "💤 Late Night", "next": "hungry_late_night" }
+    ]
+  },
+
+  "hungry_morning": {
+    "question": "What do you want to eat?",
+    "options": [
+      { "label": "🍳 Breakfast", "next": "hungry_breakfast" },
+      { "label": "🍎 Snack", "next": "hungry_snack" }
+    ]
+  },
+
+  "hungry_breakfast": {
+    "recommendation": "🥚 Make eggy eggs or have a bowl of granola. Or go out for scallion pancakes or eggs benny if you're adventurous."
+  },
+
+  "hungry_afternoon": {
+    "question": "What do you want to eat?",
+    "options": [
+      { "label": "🥙 Lunch", "next": "hungry_effort" },
+      { "label": "🍎 Snack", "next": "hungry_snack" }
+    ]
+  },
+
+  "hungry_evening": {
+    "question": "Did you eat dinner?",
+    "options": [
+      { "label": "🍱 No dinner yet", "next": "hungry_effort" },
+      { "label": "🍽️ Ate dinner", "next": "hungry_snack" }
+    ]
+  },
+
+  "hungry_late_night": {
+    "recommendation": "💧 Drink some water or eat a small piece of fruit."
+  },
+
+  "hungry_snack": {
+    "recommendation": "🍊 Have a small snack like a cracker with cheese or a piece of fruit."
+  }
+}

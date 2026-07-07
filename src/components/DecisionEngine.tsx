@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import decisions from '@/data/decisions.json'
+import decisions from '@/data/decisions'
 
 type DecisionNode =
   | { question: string; options: { label: string; next: string }[] }

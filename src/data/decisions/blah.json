@@ -1,0 +1,22 @@
+{
+  "blah_type": {
+    "question": "When you say blah — what does it feel like most?",
+    "options": [
+      { "label": "😶 Restless — I can't settle", "next": "blah_restless" },
+      { "label": "😔 Low — a little sad or tired", "next": "blah_low" },
+      { "label": "🤯 Overstimulated — too much going on in my head", "next": "blah_overstimulated" }
+    ]
+  },
+
+  "blah_restless": {
+    "recommendation": "You need to move your body a little — even just stretching on the floor, a short walk around the block, or dancing to 3 songs in your room. Your body needs to release something. 💃"
+  },
+
+  "blah_low": {
+    "recommendation": "Be gentle with yourself. Get a snack, a cozy drink, and do something quietly comforting — a comfort show, a warm bath, journaling a few lines, or texting someone you love just to say hi. 💛"
+  },
+
+  "blah_overstimulated": {
+    "recommendation": "Step away from screens for 10-15 minutes. Lie down, close your eyes, or just sit somewhere quiet. Put on soft ambient music if silence is too loud. You need to let your brain decompress. 🧘"
+  }
+}
