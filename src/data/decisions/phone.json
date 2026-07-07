@@ -1,0 +1,27 @@
+{
+  "phone": {
+    "question": "What time is it?",
+    "options": [
+      { "label": "🌅 Morning", "next": "phone_morning" },
+      { "label": "🌞 Afternoon", "next": "phone_afternoon" },
+      { "label": "🌙 Evening", "next": "phone_evening" },
+      { "label": "💤 Late Night", "next": "phone_late_night" }
+    ]
+  },
+
+  "phone_morning": {
+    "recommendation": "🍳 Get out of bed and brush your teeth. Then, if it's nice weather, go out for a walk and eat breakfast out. If not, stay home and eat breakfast at home."
+  },
+
+  "phone_afternoon": {
+    "recommendation": "🚶🏻‍♀️ Go out for a walk and try to find somewhere quiet for a bit. Take a few minutes to relax, and then plan what you want to do for the rest of the day."
+  },
+
+  "phone_evening": {
+    "recommendation": "🚿 Take a shower if you haven't already. Then do a few minutes of stretching or PT. After that you can watch an anime episode as a treat."
+  },
+
+  "phone_late_night": {
+    "recommendation": "🥟 Bedtime for the dumple. 🛌"
+  }
+}

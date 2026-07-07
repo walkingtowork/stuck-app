@@ -1,0 +1,26 @@
+{
+  "gloomy": {
+    "question": "Why gloomy?",
+    "options": [
+      { "label": "😶 Restless — I can't settle", "next": "gloomy_restless" },
+      { "label": "😔 Low — a little sad or tired", "next": "gloomy_low" },
+      { "label": "🤯 Overstimulated — too much going on in my head", "next": "gloomy_overstimulated" },
+      { "label": "❓ None of those are right", "next": "gloomy_other" }
+    ]
+  },
+
+  "gloomy_restless": {
+    "recommendation": "Sounds like you need to exercise. If the climbing gym is too far, go for a walk or do that crazy MadFit core exercise video. 💪"
+  },
+
+  "gloomy_low": {
+    "recommendation": "You are my cutie pie. Cutie pies need lots of cuddles and attention. Send me floomps and nibbles and then eat something that will make me jealous. 💛"
+  },
+
+  "gloomy_overstimulated": {
+    "recommendation": "No screens or audiobooks for a bit. Lie down, close your eyes, or just sit somewhere quiet. Put on soft ambient music if silence is too loud. You need to let your brain decompress. 🧘 If that doesn't work, write down all of your thoughts and send them to me. 💌"
+  },
+  "gloomy_other": {
+    "recommendation": "🍮 Send me a message and we can talk about it when I wake up."
+  }
+}

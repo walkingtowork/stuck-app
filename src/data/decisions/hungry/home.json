@@ -16,36 +16,11 @@
     ]
   },
 
-  "hungry_delivery": {
-    "recommendation": "Order your go-to comfort food — don't overthink it. You already know what sounds good. Just get that. 🛵"
-  },
-
   "hungry_home_lazy": {
-    "recommendation": "Make a 'chaos snack plate': grab random things from the fridge and pantry — cheese, crackers, fruit, leftovers, whatever — and arrange them on a plate. It feels fancy and takes zero effort. 🧀"
+    "recommendation": "🍜 Instant ramen and some fruit 🍎"
   },
 
   "hungry_home_cook": {
-    "recommendation": "Pick one thing you've been wanting to try making. Look it up on YouTube, get the ingredients ready, and actually do it. Make it a little event — put music on! 🎶👨‍🍳"
-  },
-
-  "hungry_medium": {
-    "question": "What are you craving?",
-    "options": [
-      { "label": "🌮 Something savory / salty", "next": "hungry_savory" },
-      { "label": "🍝 Something warm and filling", "next": "hungry_warm" },
-      { "label": "🥗 Something light and fresh", "next": "hungry_light" }
-    ]
-  },
-
-  "hungry_savory": {
-    "recommendation": "Make quesadillas or a quick fried rice with whatever's in the fridge. Both are fast, savory, and satisfying with minimal cleanup. 🌮"
-  },
-
-  "hungry_warm": {
-    "recommendation": "Cook some pasta with butter and parmesan, or heat up soup with toast. Simple, warm, cozy, and done in 15 minutes. 🍝"
-  },
-
-  "hungry_light": {
-    "recommendation": "Throw together a big salad or grain bowl — whatever greens or grains you have, top with a protein, and drizzle with whatever dressing sounds good. 🥗"
+    "recommendation": "You clearly have something in mind, so pick up the ingredients and get to cooking! 👨‍🍳"
   }
 }

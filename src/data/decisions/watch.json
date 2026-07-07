@@ -1,6 +1,6 @@
 {
   "watch_mood": {
-    "question": "What kind of mood are you in for watching?",
+    "question": "What do you want to watch?",
     "options": [
       { "label": "😂 I want to laugh", "next": "watch_comedy" },
       { "label": "😢 I want to feel something / maybe cry", "next": "watch_emotional" },
