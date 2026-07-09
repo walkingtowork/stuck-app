@@ -1,0 +1,54 @@
+{
+  "blob_energy": {
+    "question": "How much energy do you have right now?",
+    "options": [
+      { "label": "🫠 I is a blobby blob and I want to be a blobby blob.", "next": "blob_zero_energy" },
+      { "label": "💪 Have some energy, just don't know what I want to do.", "next": "blob_some_energy" },
+      { "label": "🏃 Lots of energy, but leaving the house feels hard.", "next": "blob_good_energy" }
+    ]
+  },
+
+  "blob_zero_energy": {
+    "question": "Want to do something mindless or something cozy?",
+    "options": [
+      { "label": "🧠 Mindless — just entertain me", "next": "blob_zero_mindless" },
+      { "label": "🧸 Cozy — I want to feel warm and comfy", "next": "blob_zero_cozy" }
+    ]
+  },
+
+  "blob_zero_mindless": {
+    "recommendation": "Time to rewatch Yurucamp or read some manga. 📺"
+  },
+
+  "blob_zero_cozy": {
+    "recommendation": "How about some hot chocolate or black sesame tea while you hide in bed with a blanket and a book? ☕️"
+  },
+
+  "blob_some_energy": {
+    "question": "Would you rather be creative or entertained?",
+    "options": [
+      { "label": "🎨 Creative — make something", "next": "blob_creative" },
+      { "label": "🎮 Entertained — consume something fun", "next": "blob_entertained" }
+    ]
+  },
+
+  "blob_creative": {
+    "recommendation": "Are there some postcards for you to write? Or maybe some scrapbooking you could do? Is there a recipe you want to try? 🎨"
+  },
+
+  "blob_entertained": {
+    "recommendation": "If you can't think of any books or manga to read, and no anime is catching your eye, what about dusting off your Switch? 🎮"
+  },
+
+  "blob_good_energy": {
+    "question": "Want to stay inside or get out?",
+    "options": [
+      { "label": "🛋️ Stay inside", "next": "blob_some_energy" },
+      { "label": "🌤️ Get outside", "next": "blob_outside" }
+    ]
+  },
+
+  "blob_outside": {
+    "recommendation": "🌆 How about going climbing or visiting the city? You probably had plans and then got stuck, so off you go *nudge nudge*"
+  }
+}

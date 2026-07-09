@@ -2,7 +2,7 @@
   "root": {
     "question": "Creple, I stuck.",
     "options": [
-      { "label": "😴 Couch is sticky", "next": "couch_energy" },
+      { "label": "🍑 I is stuck on my butty butt", "next": "blob_energy" },
       { "label": "🥟 Hungry", "next": "hungry_time" },
 { "label": "🫐 Gloomy", "next": "gloomy" },
       { "label": "📱 Got stuck on phone", "next": "phone" }
